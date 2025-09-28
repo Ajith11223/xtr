@@ -28,7 +28,7 @@ const Footer = () => {
 
   const followUs = [
     {
-      href: "#",
+      href: "https://www.instagram.com/xtorqltd?igsh=MWJ5aDZsaWN0bnR4Mg%3D%3D&utm_source=qr",
       icon: <FaInstagram />,
       name: "Instagram"
     },
