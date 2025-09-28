@@ -133,6 +133,7 @@ export default function RootLayout({
           `
           }}
         /> */}
+        {/* https://wa.me/918086014345?text=I%20would%20like%20to%20know%20more%20about%20Dentobees */}
       </head>
       <body className={clsx( "min-h-screen bg-white font-sans antialiased", fontSans.variable )} >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
@@ -140,7 +141,7 @@ export default function RootLayout({
             <MainLayout>{children}</MainLayout>
             <div className="absolute bottom-10 right-10 py-3 WhatsApp-Icon z-10">
               <Link
-                href="https://wa.me/918086014345?text=I%20would%20like%20to%20know%20more%20about%20Dentobees"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
