@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.button-shadow {
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
+}
+
+.custom-shadow {
+  box-shadow: 0 4px 14px 0 #2A9F6B;
+}
+
+.Hide-ScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+.Hover-effect:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.Sub-heading {
+  font-size: 30px;
+  line-height: 36.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 48px;
+      line-height: 56.4px;
+  }
+}
+
+.Large-heading {
+  font-size: 28px;
+  line-height: 34.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 40px;
+      line-height: 48.4px;
+  }
+}
+
+.Medium-heading {
+  font-size: 24px;
+  line-height: 27.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 28px;
+      line-height: 31.4px;
+  } 
+}
+
+.Small-heading {
+  font-size: 20px;
+  line-height: 23.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 24px;
+      line-height: 27.4px;
+  } 
+}
+
+.Small-text {
+  font-size: 12px;
+  line-height: 15.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 14px;
+      line-height: 17.4px;
+  } 
+} 
+
+.Medium-text {
+  font-size: 14px;
+  line-height: 17.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 16px;
+      line-height: 19.4px;
+  } 
+}
+
+.Normal-text {
+  font-size: 16px;
+  line-height: 19.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 18px;
+      line-height: 21.4px;
+  } 
+}
+
+.Large-text {
+  font-size: 18px;
+  line-height: 21.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 20px;
+      line-height: 23.4px;
+  } 
+}
+
+.Common-padding {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (min-width: 640px) {
+  .Common-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .Common-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .Common-padding {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 1280px) {
+  .Common-padding {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media (min-width: 1536px) {
+  .Common-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.Green-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: white;
+  background-color: #00D299;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 27px;
+} 
+}
+.Green-button:hover {
+  background-color: #1C876A;
+}
+
+.Green-gradient-button {
+  padding: 1px;
+  background-image: linear-gradient(to right, #0E6E54, #FFF98A);
+  border-radius: 40px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.Green-gradient-button-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: white;
+  background-image: linear-gradient(to right, #00D299, #006C4F);
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 27px;
+} 
+}
+.Green-gradient-button-text:hover {
+  background-image: linear-gradient(to right, #12A87F, #000000);
+}
+
+.White-gradient-button-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  background-color: white;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 27px;
+} 
+}
+.White-gradient-button-text:hover {
+  background-color: #006C4F;
+  color: white;
+}
+

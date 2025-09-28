@@ -1,0 +1,365 @@
+.animate-gradient {
+    background-size: 300% 300%;
+    animation: gradientAnimation 3s ease-in-out infinite;
+}
+
+.Demo-Button {
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+}
+
+.WhatsApp-Icon {
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+}
+
+@media (min-width: 768px) {
+    .WhatsApp-Icon {
+        position: fixed;
+        bottom: 10px;
+        right: 25px;
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.fixedNavbar {
+    position: fixed;
+    z-index: 50;
+}
+
+.underline-animation {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #3F3A3A;
+    padding-bottom: 5px;
+    transition: width 0.3s ease;
+}
+
+.underline-animation::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2.5px;
+    background-color: #00D299;
+    transition: width 0.3s ease;
+}
+
+.underline-animation:hover::after {
+    width: 100%;
+}
+
+.scroll-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-item {
+    flex-shrink: 0;
+}
+
+@keyframes scrollUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+.continuous-scroll {
+    animation: scrollUp 20s linear infinite;
+
+}
+
+@keyframes waves {
+    0% {
+        -webkit-transform: scale(0.2, 0.2);
+        transform: scale(0.2, 0.2);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+
+    50% {
+        opacity: 0.9;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    }
+
+    100% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(0.9, 0.9);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+.waves2 {
+    position: absolute;
+    background: #D4D0D0;
+    opacity: 0;
+    border-radius: 100%;
+    z-index: 1;
+    animation: waves 3s ease-in-out infinite;
+}
+
+.wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.video-main {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.waves-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 187px;
+    height: 187px;
+}
+
+.Modal-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #322A2A;
+    text-transform: capitalize;
+    @media (min-width: 768px) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.Label-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.13px;
+    color: #322A2A;
+}
+
+.Error-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #DC2626;
+}
+
+.Input-field {
+    border: 1px solid #00D299;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border-radius: 8px;
+    outline: none;
+}
+.Input-field::placeholder {
+    color: #375268;
+}
+
+.Input-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: #375268;
+}
+
+.Pricing-button {
+    border: 1px solid #00D299;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+    border-radius: 40px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    @media (min-width: 768px) {
+      font-size: 18px;
+      line-height: 27px;
+  } 
+  }
+.Pricing-button:hover {
+    background-color: #00D299;
+}
+
+.ContactUs-button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    background-color: #00D299;
+    border-radius: 40px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    @media (min-width: 768px) {
+      font-size: 16px;
+      line-height: 24px;
+  } 
+}
+.ContactUs-button:hover {
+    background-color: #1C876A;
+}
+
+.Modal-submit-button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+    background-color: #00D299;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    @media (min-width: 768px) {
+      font-size: 18px;
+      line-height: 27px;
+  } 
+}
+.Modal-submit-button:hover {
+    background-color: #1C876A;
+}
+
+.Modal-cancel-button {
+    border: 1px solid #CECCCC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    @media (min-width: 768px) {
+      font-size: 18px;
+      line-height: 27px;
+  } 
+}
+.Modal-cancel-button:hover {
+    color: white;
+    background-color: #1C876A;
+}
+
+.Feature-text {
+    font-size: 16px;
+    line-height: 19.4px;
+    @media (min-width: 768px) {
+        font-size: 18px;
+        line-height: 21.4px;
+    } 
+}
+
+.WhyChooseUs-feature {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.04em;
+    @media (min-width: 1024px) {
+      font-size: 38px;
+      line-height: 44.08px;
+  }
+}
+
+.Terms-text {
+  font-size: 21px;
+  line-height: 24.4px;
+  letter-spacing: -0.04em;
+  @media (min-width: 768px) {
+      font-size: 23px;
+      line-height: 26.4px;
+  } 
+}
+
+.Page-Heading {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 58.88px;
+  letter-spacing: -0.04em;
+  background-image: linear-gradient(to right, #332F2F, #B3422E, #644e4e);
+  background-clip: text;
+  color: transparent;
+  background-size: 300% 300%;
+  animation: gradientAnimation 3s ease-in-out infinite;
+}
+@media (min-width: 768px) {
+  .Page-Heading {
+    font-size: 50px;
+    line-height: 66.88px;
+  }
+}
+@media (min-width: 1024px) {
+  .Page-Heading {
+    font-size: 56px;
+    line-height: 74.88px;
+  }
+}
+@media (min-width: 1280px) {
+  .Page-Heading {
+    font-size: 68px;
+    line-height: 88.88px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.Meta-green-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 19.4px;
+    color: #1D5A49;
+    background-image: linear-gradient(to right, #7FFB9A, #00E6BE);
+    border-radius: 14px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    @media (min-width: 768px) {
+        font-size: 18px;
+        line-height: 21.4px;
+    } 
+}
+.Meta-green-button:hover {
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
+}

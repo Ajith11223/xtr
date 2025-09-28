@@ -1,0 +1,13 @@
+# Allow all crawlers full access to the main site
+User-agent: *
+Disallow: https://dentobees.com/blog-style-three/
+Disallow: https://dentobees.com/task-management/
+Disallow: http://dentobees.com/10-things-nobody-told-you-about-being-a-web-design/feed
+Disallow: https://dentobees.com/10-things-nobody-told-you-about-being-a-web-design/feed
+Disallow: https://www.dentobees.com/apple-mail-to-block-email-tracking-pixels-with-ios
+Disallow: https://www.dentobees.com/tag/software
+Disallow: https://www.dentobees.com/team/roger-a-greene
+Disallow: https://www.dentobees.com/litespeed-cache-webp-delivery-for-wordpress
+Disallow: https://www.dentobees.com/pricing-two
+Disallow: https://www.dentobees.com/app-development
+Disallow: https://www.dentobees.com/marquee-portfolio
