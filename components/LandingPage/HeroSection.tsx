@@ -84,7 +84,7 @@ const HeroSection = () => {
             >
               <div>
                 <Image
-                  src="/lc.avif"
+                  src="/xtr2.jpeg"
                   alt="Image"
                   width={994.7}
                   className="w-full h-full md:w-[600px] lg:w-[700px] xl:w-full"
